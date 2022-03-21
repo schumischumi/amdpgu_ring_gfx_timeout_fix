@@ -1,0 +1,1 @@
+ACTION!="remove", SUBSYSTEM=="drm", KERNEL=="card0", DRIVERS=="amdgpu", RUN+="/usr/local/bin/scripts/amdgpufix.sh"
